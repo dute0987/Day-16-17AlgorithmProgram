@@ -11,7 +11,7 @@ namespace AlgorithamPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Algorithm Problems");
+            //Console.WriteLine("Welcome to Algorithm Problems");
             bool flag = true;
             while (flag)
             {
