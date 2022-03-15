@@ -21,14 +21,14 @@ namespace AlgorithamPrograms
                 switch (option)
                 {
                     case 1:
-                        BinarySearch binary = new BinarySearch();
-                        binary.Search();
-                        break;
+                        //BinarySearch binary = new BinarySearch();
+                        //binary.Search();
+                        //break;
 
-                    //            case 2:
-                    //                InsertionSort insertion = new InsertionSort();
-                    //                insertion.Insertion_Sort();
-                    //                break;
+                                case 2:
+                                    InsertionSort insertion = new InsertionSort();
+                                    insertion.Insertion_Sort();
+                                    break;
 
                     //            case 3:
                     //                Anagram anagram = new Anagram();
