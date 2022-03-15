@@ -21,9 +21,9 @@ namespace AlgorithamPrograms
                 switch (option)
                 {
                     case 1:
-                        BinarySearch binary = new BinarySearch();
-                        binary.Search();
-                        break;
+                        //BinarySearchTree binary = new BinarySearchTree();
+                        //binary.Search();
+                        //break;
 
                     //            case 2:
                     //                InsertionSort insertion = new InsertionSort();
@@ -35,10 +35,10 @@ namespace AlgorithamPrograms
                     //                anagram.Check_Anagram();
                     //                break;
 
-                    //            case 4:
-                    //                BubbleSort sort = new BubbleSort();
-                    //                sort.Bubble_Sort();
-                    //                break;
+                                case 4:
+                                    BubbleSort sort = new BubbleSort();
+                                    sort.Bubble_Sort();
+                                    break;
                     //            case 5:
                     //                MergeSort sortMerge = new MergeSort();
                     //                sortMerge.Merge_Sort();
