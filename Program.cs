@@ -20,10 +20,10 @@ namespace AlgorithamPrograms
                 int option = Convert.ToInt32(Console.ReadLine());       // converting string value to int
                 switch (option)
                 {
-                    case 1:
-                        BinarySearch binary = new BinarySearch();
-                        binary.Search();
-                        break;
+                    //case 1:
+                        //BinarySearch binary = new BinarySearch();
+                        //binary.Search();
+                        //break;
 
                     //            case 2:
                     //                InsertionSort insertion = new InsertionSort();
@@ -43,10 +43,10 @@ namespace AlgorithamPrograms
                     //                MergeSort sortMerge = new MergeSort();
                     //                sortMerge.Merge_Sort();
                     //                break;
-                    //            case 6:
-                    //                PrimeNumbers numbers = new PrimeNumbers();
-                    //                numbers.Prime();
-                    //                break;
+                                case 6:
+                                    PrimeNumbers numbers = new PrimeNumbers();
+                                    numbers.Prime();
+                                    break;
                     //            case 7:
                     //                flag = false;
                     //                break;
