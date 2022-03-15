@@ -20,7 +20,7 @@ namespace AlgorithamPrograms
                 int option = Convert.ToInt32(Console.ReadLine());       // converting string value to int
                 switch (option)
                 {
-                    case 1:
+                    //case 1:
                         //BinarySearch binary = new BinarySearch();
                         //binary.Search();
                         //break;
@@ -30,19 +30,19 @@ namespace AlgorithamPrograms
                     //                insertion.Insertion_Sort();
                     //                break;
 
-                    //            case 3:
-                    //                Anagram anagram = new Anagram();
-                    //                anagram.Check_Anagram();
-                    //                break;
+                                case 3:
+                                    Anagram anagram = new Anagram();
+                                    anagram.Check_Anagram();
+                                    break;
 
                     //            case 4:
                     //                BubbleSort sort = new BubbleSort();
                     //                sort.Bubble_Sort();
                     //                break;
-                                case 5:
-                                    MergeSort sortMerge = new MergeSort();
-                                    sortMerge.Merge_Sort();
-                                    break;
+                    //            case 5:
+                    //                MergeSort sortMerge = new MergeSort();
+                    //                sortMerge.Merge_Sort();
+                    //                break;
                     //            case 6:
                     //                PrimeNumbers numbers = new PrimeNumbers();
                     //                numbers.Prime();
